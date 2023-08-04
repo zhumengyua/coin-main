@@ -48,9 +48,9 @@ const dataList = [
   { id: 3, name: "守望千年——唐宋元书画珍品特展", href: "https://www.museum24h.com/360/shouwang/" },
   { id: 4, name: "心放俗外——定州静志静众佛塔地宫文物展", href: "https://www.museum24h.com/360/xinfangsuwai/" },
   { id: 5, name: "越地长歌——浙江历史文化陈列", href: "https://www.museum24h.com/360/yuedichangge/" },
-  { id: 6, name: "中兴纪胜——南宋风物观止", href: "https://www.museum24h.com/360/yuqi/" },
+  { id: 6, name: "中兴纪胜——南宋风物观止", href: "http://139.9.158.248:7999/ZheJiangShengBo/DigitalMus/HDView" },
   { id: 7, name: "越中佛传——东南佛教盛事胜迹圣物", href: "https://www.museum24h.com/360/yzfc/" },
-  { id: 8, name: "漂海闻见——15世纪朝鲜儒士崔溥眼中的江南", href: "https://www.museum24h.com/360/zhuke/" },
+  { id: 8, name: "漂海闻见——15世纪朝鲜儒士崔溥眼中的江南", href: "http://360.at720.com/170418/?sid=s03" },
   { id: 9, name: "楮墨方圆", href: "https://www.museum24h.com/360/chumofangyuan/" },
   { id: 10, name: "越王时代", href: "https://www.museum24h.com/360/yuewangshidai/" },
   { id: 11, name: "同舟风雨", href: "https://www.museum24h.com/360/tongzhoufengyu/" },
@@ -131,6 +131,9 @@ const onSlideChange = (data) => {
     width: 4em;
     height: 5.35em;
     background-color: #415763;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
     float: left;
     margin-left: -30px;
     position: relative;
